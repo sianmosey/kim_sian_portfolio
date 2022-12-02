@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/contact.css">
+
+</head>
+<body>
+
+  <header>
+    <div class="logo">
+      <a href="index.html"> <img src="img/logo for portfolio copy.png" style="width:80px;"></a>
+    </div>
+    
+    <ul class="nav">
+            <!-- <li><a href="#">HOME</a></li> -->
+            <li><a href="index.html">WORKS</a></li>
+            <li><a href="videopage.html">VIDEO</a></li>
+            <li><a href="aboutsian.html">ABOUT ME</a></li>
+            <li><a href="contactus.html">CONTACT</a></li>
+            <!--<li><a href="#">혜택</a></li> -->
+    </ul>
+
+    <ul class="menu">
+      <li><a href="https://www.instagram.com/user1046836147290/"><img src="img/instagram-svgrepo-com.svg" style="width:20px;"></a></li>
+      <li><a href="https://github.com/sianmosey/"><img src="img/github-svgrepo-com.svg" style="width:20px;"></a></li>
+    </ul>
+
+  </header>
+
+  <body>
+   <section id="form">
+    <h2 class="hidden">Contact Us Form</h2>
+    <div class="contact">
+      <h3 class="medium">
+          CONTACT ME
+      </h3>
+      <h3 class="small">
+          Start With SIAN
+      </h3>
+
+      <div id="success" class="hidden" ref="smessage">yeh success!</div>
+      <div id="error" class="hidden" ref="emessage">sorry can you do it again?</div>
+
+      <form action="./includes/send.php" method="POST" id="mail-form">
+
+        <label class="hidden" for="firstnamelastname">First Name</label>
+        <input ref="fname" name="name" type="text" class="feedback-input" placeholder="NAME" />
+        
+        <label class="hidden" for="email">Email</label>
+        <input ref="lname" name="email" type="text" class="feedback-input" placeholder="EMAIL" />
+
+        <label class="hidden" for="message">Your Message</label>
+        <textarea ref="message" name="text" class="feedback-input" placeholder="COMMENT"></textarea>
+
+        <div class="wrapper">
+          <input @click.prevent="processMail" type="submit" class="submit" value="SUBMIT"/>
+        </div>
+          
+        </form>
+    </div>
+   </section>
+  </body>
+
+    
+<div class="section">
+  <footer>
+   <img src="img/logo for portfolio copy.png" style="width:100px;">
+    <p>gmail greetsian@gmail.com<br>
+    github @sianmosey<br>
+    CONNECT YOUR DREAMS AND MY CREAVITY<br>
+  </footer>
+</div>
+
+<a href="contactus.html" class="float">
+<i class="fa fa-envelope my-float"><img src="img/logo for portfolio(2) copy.png" style="width:40px;"></i>
+</a>
+<div class="label-container">
+<div class="label-text">Let's Make Something Special</div>
+<i class="fa fa-play label-arrow"></i>
+</div>
+
+
+
+
+
+ <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+ <script src="js/contact.js" type="module" defer></script>
+</body>
+</html>
