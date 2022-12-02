@@ -1,0 +1,249 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #ac6060;
+  }
+
+  .hidden {
+    display: none;
+   }
+
+  body{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #333333;
+    width: 100%;
+  }
+
+  header{
+    background-color: #000;
+    height: 80px;
+    display: flex;
+    align-items: center;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    padding: 0 48px;
+
+    transition: all 0.3s ease-in;
+  }
+
+  header.scrolled{
+    height: 100px;
+    background-color: #333333;
+    box-shadow: 0 0 10px rgba(0,0,0, 0.5);
+  }
+  /*header ul a.scrolled{
+    color: #333;
+  }*/
+
+  header ul{
+    /*flex: 1 0 0;*/
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  header .nav{
+    flex: 1 0 0;
+    margin-right: 40px;
+  }
+  header ul a{
+    margin: 0 14px 0 14px;
+    text-decoration: none;
+    color: #c18686;
+    font-size: 16px;
+  }
+
+  ul a {
+    text-decoration: none;
+  }
+
+  ul li {
+    list-style: none;
+  }
+
+/*-----------------------------------contact form-------------------------------------*/
+
+#form {
+    margin-top: 30px;
+    text-align: justify;
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;  
+}
+
+.feedback-input {
+    color: #c18686;
+    font-weight:500;
+    font-size: 12px;
+    border-radius: 0px;
+    line-height: 22px;
+    background-color: #000000;
+    border:1px solid #000000;
+    transition: all 0.2s;
+    padding: 13px;
+    margin-bottom: 15px;
+    width:100%;
+    box-sizing: border-box;
+    outline:0;
+    margin-top: 15px;
+  }
+  
+  .feedback-input:focus { border:2px solid #c18686; }
+  
+  textarea {
+    height: 150px;
+    line-height: 150%;
+    resize:vertical;
+  }
+  
+  [type="submit"] {
+    width: 100%;
+    background:#ac6060;
+    border-radius:0px;
+    border:0;
+    cursor:pointer;
+    color:white;
+    font-size:15px;
+    padding-top:10px;
+    padding-bottom:10px;
+    transition: all 0.3s;
+    margin-top:-1px;
+  }
+  [type="submit"]:hover { 
+    background:#ffffff;
+    color: #ac6060;}
+        
+        
+        .img_map{
+        width: 100%;
+        min-height: 600px;
+        }
+  
+        .backgrnd-img img {
+           max-width: 100%;
+        }
+  
+        .contact {
+           font-family: 'Barlow Condensed', sans-serif;
+           font-size: 20px;
+           font-weight: 600;
+           text-align: center;
+        }
+  
+        .medium {
+           color: #c18686;
+           font-size: 40px;
+           padding-top: 100px;
+           padding-bottom: 10px;
+           font-weight: bold;
+        }
+  
+        .small {
+           color: #ffffff;
+           font-size: 17px;
+           padding-bottom: 30px;
+        }
+  
+/*-----------------------------------footer-------------------------------------*/
+.section{
+  width: 996px;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer{
+    /* margin-top: 200px; */
+    color: #c18686;
+    height: 200px;
+    background-color: #333;
+  
+    font-size: 12px;
+    line-height: 160%;
+    padding: 96px;
+  
+  }
+  
+  footer p{
+    color: #c18686;
+    margin-left: 200px;
+    margin-top: -70px;
+  }
+  
+  
+  
+  /*-----------------------------------button-------------------------------------*/
+  .label-container{
+    position:fixed;
+    bottom:48px;
+    right:105px;
+    display:table;
+    visibility: hidden;
+  }
+  
+  .label-text{
+    color:#ffffff;
+    background-color:#000000;
+    display:table-cell;
+    vertical-align:middle;
+    padding: 20px;
+    border-radius:40px;
+    z-index: 10;
+    height: 80px;
+    width: 350px;
+    font-weight: 700;
+  }
+  
+  .label-arrow{
+    display:table-cell;
+    vertical-align:middle;
+    color:#333;
+    opacity:0.4;
+  }
+  
+  .float{
+    position:fixed;
+    width:80px;
+    height:80px;
+    bottom:40px;
+    right:60px;
+    background-color:#ac6060;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    box-shadow: 4px 4px 5px #000;
+    z-index: 10;
+  }
+  
+  .float img{
+    display:block; 
+    text-align: center;
+    margin-top: 24px;
+    margin-left: 20px;
+  }
+  
+  .my-float{
+    font-size:12px;
+    margin-top:0px;
+  }
+  
+  a.float + div.label-container {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s ease;
+  }
+  
+  a.float:hover + div.label-container{
+    visibility: visible;
+    opacity: 1;
+    margin-right: -40px;
+    z-index: 9;
+    margin-bottom: -10px;
+  }
