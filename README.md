@@ -1,3 +1,4 @@
+![logo for portfolio copy](https://user-images.githubusercontent.com/90750078/205535249-44aac65a-09d5-432e-965e-6ea32cc9c58d.png)
 # Portfolio Site_Sian Kim
 This is Sian and this repo is for my portfolio site.
 It is live at www.seeyousian.com
