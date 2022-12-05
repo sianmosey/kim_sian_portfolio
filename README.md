@@ -29,7 +29,7 @@ I couldn't add ux for error/success message because the sass connection didn't w
 * Vue js
 * JavaScript
 
-### Brower compatibility
+## Brower compatibility
 
 * Chrome - 100%
 * Firefox - 100%
