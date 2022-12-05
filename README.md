@@ -16,8 +16,6 @@ $ git clone https://github.com/sianmosey/kim_sian_portfolio.git
 * Vue js
 * JavaScript
 
-## Issues
-
 ### Brower compatibility
 
 * Chrome - 100%
