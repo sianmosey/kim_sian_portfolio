@@ -9,6 +9,12 @@ Clone the repo to get started!
 $ git clone https://github.com/sianmosey/kim_sian_portfolio.git
 ```
 
+## Issues
+
+When you access seeyou.com, only the image on the bootcamp page does not appear normally for some reason.
+
+However, it works well with the files in the git hub.
+
 ## Built With
 
 * HTML
