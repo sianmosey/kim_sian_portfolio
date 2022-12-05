@@ -1,5 +1,5 @@
 # Portfolio Site_Sian Kim
-Nice to meet you. This is Sian and this repo is for my portfolio site.
+This is Sian and this repo is for my portfolio site.
 It is live at www.seeyousian.com
 
 ## Getting Started
